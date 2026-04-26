@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Data & models (large / private)
+data/raw/
+data/processed/
+models/*.pkl
+models/*.pt
+models/*.joblib
+mlruns/
+
+# Node / Next.js
+node_modules/
+.next/
+.env.local
+.env.production
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Private content — keep the Medium/LinkedIn/YouTube/images local only
+content/
+
+# Local session-resume prompt
+CLAUDE.md

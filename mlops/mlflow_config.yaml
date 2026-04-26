@@ -1,0 +1,7 @@
+experiment_name: "enterprise_rag_assistant"
+tracking_uri: "./mlruns"
+artifact_location: "./mlruns/artifacts"
+tags:
+  portfolio: "asad-mads"
+  category: "04_llm_genai"
+  project_id: "19"
